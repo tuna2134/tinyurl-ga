@@ -13,7 +13,7 @@ packages = [
 setuptools.setup(
     entry_points={
         "console_scripts": [
-            "discord-api = app:main"
+            "tinyurl-ga = tinyurl_ga:main"
         ]
     },
     packages=packages,
