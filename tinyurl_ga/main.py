@@ -10,4 +10,4 @@ class result:
         
     @property
     def url(self) -> str:
-        return "https://tinyurl.ga/" + self.data["url"]
+        return self.data["url"]
