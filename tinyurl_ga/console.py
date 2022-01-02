@@ -3,4 +3,4 @@ from sys import argv
 
 def main():
     result = create(argv[0])
-    print(result.url)
+    print(f"結果:{result.url}")
